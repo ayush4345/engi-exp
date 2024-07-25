@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Dashboard from './dashboard';
+import HelloDashboard from './helloDashboard';
 
 // Define routes
 const routes = [
   { path: "/client/", element: <Dashboard /> },
+  { path: "/hello/", element: <HelloDashboard /> },
 ];
 
 // Create a router with defined routes
